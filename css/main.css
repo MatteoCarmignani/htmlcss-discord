@@ -163,7 +163,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    padding-top: 10px;
+    padding-top: 50px;
     background-color: #23272a;
 }
 
@@ -187,11 +187,21 @@
     color: white;
 }
 
-.container-viola {
+.container-stretto {
     width: 10%;
-    /*debug*/
+    /*debug
     background-color: purple;
-    height: 260px;
+    height: 260px;*/
+}
+
+li {
+   list-style-type: none; 
+   margin-bottom: 8px;
+   color: white;
+}
+
+.lista-blu {
+    color: #6f89d3
 }
 
 .all-finale {
