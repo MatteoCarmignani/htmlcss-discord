@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#top-bar {
+     /*debug*/
+    height: 60px;
+    background-color: #3160e0;
+}
+
+#top-bar-container {
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center
+    /*debug*/
+}
+
+.link-colore {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 18%;
+    /*debug
+    background-color: yellow;  
+    border-color: black; */
+}
+
+#link {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    /*debug
+    background-color: yellow; 
+    border-color: black;  */
+}
+
+#login {
+    width: 18%;
+    display: flex;
+    justify-content: flex-end;
+    /*debug
+    background-color: yellow;
+    border-color: black; */
+}
+
+.bottone-bianco {
+    background-color: white;
+    padding: 8px;
+    border-radius: 24px;
+    border-color: white;
+}
+
+.bottone-nero {
+    background-color: black;
+    padding: 8px;
+    border-radius: 24px;
+    color: white;
+}
+
+#hero {
+    /*debug*/
+    padding: 60px;
+}
+#container-hero {
+    color: white;
+    width: 66%;
+    margin: 0 auto;
+    /*debug*/
+    background-color: pink;
+}
+
+#apertura-download {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.centrato {
+    display: flex;
+    justify-content: center;
+}
+
+#spazio-bottoni {
+    padding-top: 15px;
+}
+
+/*main*/
+
+.container-rosa {
+    width: 35%;
+    /*debug*/
+    background-color: deeppink;
+    height: 260px;
+}
+.container-arancio {
+    width: 27%;
+    /*debug*/
+    background-color: orange;
+    height: 260px;
+}
+.container-verde {
+    width: 62%;
+     /*debug*/
+    background-color: green;
+    height: 360px;
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.all-grigia {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: #f6f6f6;
+}
+
+/*footer*/
+
+.all-nera {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #23272a;
+}
+
+.container-rosso {
+    width: 15%;
+    /*debug*/
+    background-color: red;
+    height: 260px;
+}
+
+.container-viola {
+    width: 10%;
+    /*debug*/
+    background-color: purple;
+    height: 260px;
+}
+
+.all-finale {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: #23272a;
+
+}
+
+.container-ciano {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*debug*/
+    height: 40px;
+    background-color: aqua;
+
+}
+
+/*bottoni*/
+
+.bottone-azzurro {
+    background-color: #99a4d3;
+    padding: 8px;
+    border-radius: 24px;
+    color: white;
+}
