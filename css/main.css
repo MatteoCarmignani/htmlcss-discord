@@ -169,6 +169,7 @@
 
 .container-rosso {
     width: 15%;
+    color: white;
     /*debug
     background-color: red;
     height: 260px;*/
@@ -185,6 +186,7 @@
 
 .testo-bianco {
     color: white;
+    margin-top: 15px;
 }
 
 .container-stretto {
