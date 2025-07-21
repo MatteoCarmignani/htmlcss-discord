@@ -49,28 +49,13 @@
     border-color: black; */
 }
 
-.bottone-bianco {
-    background-color: white;
-    padding: 8px;
-    border-radius: 24px;
-    border: 0;
-}
-
-.bottone-nero {
-    background-color: black;
-    padding: 8px;
-    border-radius: 24px;
-    color: white;
-    border: 0;
-    margin-left: -43px;
-}
-
 #hero {
     /*debug*/
     padding: 60px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     text-align: center;
+    padding: 100px 60px;
 }
 #container-hero {
     color: white;
@@ -99,24 +84,60 @@
 
 /*main*/
 
-.container-rosa {
-    width: 35%;
-    /*debug*/
-    background-color: deeppink;
-    height: 260px;
+.immagine-destra{
+    width: 83%;
+    margin-left: 55px;
 }
-.container-arancio {
-    width: 27%;
-    /*debug*/
-    background-color: orange;
-    height: 260px;
-}
-.container-verde {
-    width: 62%;
-     /*debug*/
-    background-color: green;
-    height: 360px;
 
+.immagine-destra{
+    width: 83%;
+    margin-right: 55px;
+}
+
+.container-grande {
+    width: 50%;
+    /*debug
+    background-color: deeppink;
+    height: 260px; */
+}
+.container-piccolo {
+    width: 19%;
+    padding-top: 19px;
+    /*debug
+    background-color: orange;
+    height: 260px;*/
+}
+
+.sottotitolo {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#sottotitolo-vocal {
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container-enorme {
+    width: 62%;
+
+     /*debug
+    background-color: green;
+    height: 360px;*/
+}
+
+#stelle {
+    margin-bottom: 15px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 0;
+}
+
+#avventura {
+    margin-bottom: 20px;
 }
 
 .all {
@@ -132,6 +153,10 @@
     background-color: #f6f6f6;
 }
 
+#allineamento {
+    text-align: center;
+}
+
 /*footer*/
 
 .all-nera {
@@ -144,9 +169,22 @@
 
 .container-rosso {
     width: 15%;
-    /*debug*/
+    /*debug
     background-color: red;
-    height: 260px;
+    height: 260px;*/
+}
+
+#sottotitolo-blu {
+    color: #6f89d3;
+    margin-bottom: 15px;
+}
+
+#italia {
+    height: 4.5%;
+}
+
+.testo-bianco {
+    color: white;
 }
 
 .container-viola {
@@ -169,9 +207,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*debug*/
+    margin-bottom: 30px;
+    /*debug
     height: 40px;
-    background-color: aqua;
+    background-color: aqua;*/
 
 }
 
@@ -182,4 +221,22 @@
     padding: 8px;
     border-radius: 24px;
     color: white;
+    border: 0;
+    padding: 10px;
+}
+
+.bottone-bianco {
+    background-color: white;
+    padding: 8px;
+    border-radius: 24px;
+    border: 0;
+}
+
+.bottone-nero {
+    background-color: black;
+    padding: 8px;
+    border-radius: 24px;
+    color: white;
+    border: 0;
+    margin-left: -43px;
 }
