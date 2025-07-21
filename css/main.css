@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Whitney'; 
 }
 #top-bar {
      /*debug*/
@@ -52,7 +53,7 @@
     background-color: white;
     padding: 8px;
     border-radius: 24px;
-    border-color: white;
+    border: 0;
 }
 
 .bottone-nero {
@@ -60,18 +61,29 @@
     padding: 8px;
     border-radius: 24px;
     color: white;
+    border: 0;
+    margin-left: -43px;
 }
 
 #hero {
     /*debug*/
     padding: 60px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;
 }
 #container-hero {
     color: white;
-    width: 66%;
+    width: 55%;
     margin: 0 auto;
-    /*debug*/
-    background-color: pink;
+    justify-content: center;
+    /*debug
+    background-color: pink;*/
+}
+
+#distacco {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #apertura-download {
@@ -84,9 +96,6 @@
     justify-content: center;
 }
 
-#spazio-bottoni {
-    padding-top: 15px;
-}
 
 /*main*/
 
